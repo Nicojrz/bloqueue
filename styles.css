@@ -286,3 +286,65 @@ nav a {
   transition: color .2s;
 }
 nav a:hover { color: var(--terracota); }
+
+footer {
+  background-color: var(--tinta);
+  color: var(--arena);
+  border-top: 3px solid var(--terracota);
+  padding: 3rem 2rem;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer-brand .logo {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.footer-brand p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: .95rem;
+  font-style: italic;
+  color: var(--gris-calido);
+  max-width: 280px;
+  margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.footer-nav span {
+  font-family: 'Playfair Display', serif;
+  font-size: .8rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--ocre);
+  margin-bottom: .4rem;
+}
+.footer-nav a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  color: var(--arena);
+  transition: color .2s;
+}
+.footer-nav a:hover { color: var(--terracota); }
+
+.footer-copy {
+  max-width: 1100px;
+  margin: 2rem auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid #3a2415;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: .9rem;
+  color: var(--gris-calido);
+  text-align: center;
+}
