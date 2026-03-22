@@ -1,6 +1,20 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
+/* ── Variables ── */
+:root {
+  --crema:      #faf5ee;
+  --pergamino:  #f2e9d8;
+  --arena:      #e8d9c0;
+  --terracota:  #b6836e;
+  --ladrillo:   #9e7061;
+  --ocre:       #c98a3e;
+  --tinta:      #2c1a0e;
+  --gris-calido:#6b5040;
+  --borde:      #d4bfa0;
+  --sombra:     rgba(44, 26, 14, 0.08);
+}
+
 html { scroll-behavior: smooth; }
 
 body {
